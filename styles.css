@@ -17,3 +17,18 @@
 @media(max-width:900px){.menu-feature-inner{gap:35px;padding-block:75px}.menu-preview{min-height:425px}.portfolio-note{flex-wrap:wrap}.portfolio-note .text-link{margin-right:39px}}
 @media(max-width:640px){.hero{min-height:0}.hero-proof{max-width:none}.proof-word{font-size:8px}.portfolio-toolbar{align-items:flex-start;flex-direction:column}.portfolio-toolbar .filters{width:100%;gap:5px}.filter{padding:8px 10px}.portfolio-toolbar>.text-link{align-self:flex-end}.expand{opacity:1;transform:none}.portfolio-note{gap:10px;padding:14px}.portfolio-note div{min-width:calc(100% - 45px)}.portfolio-note .text-link{margin:0 34px 0 0}.menu-feature-inner{grid-template-columns:1fr;gap:35px;padding-block:65px}.menu-feature h2{font-size:39px}.menu-preview{min-height:420px;padding:20px 22px;transform:none}.menu-preview:hover{transform:translateY(-2px)}.footer-links{width:100%;justify-content:space-between;gap:10px;font-size:10px}.footer-bottom{padding-bottom:70px}.sticky-mobile-cta{display:flex;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(12px);transition:opacity .2s,transform .2s,visibility .2s;position:fixed;z-index:50;left:12px;right:12px;bottom:10px;justify-content:space-between;align-items:center;background:#171713;color:#f4f0e7;padding:9px 10px 9px 16px;border:1px solid #c7a97966;box-shadow:0 8px 30px #0003;border-radius:7px}.sticky-mobile-cta span{font-size:10px;color:#b9b1a2}.sticky-mobile-cta strong{font-size:12px}.sticky-mobile-cta i{font-style:normal;background:#c7a979;color:#171713;padding:7px 12px;font-size:11px;font-weight:700;border-radius:3px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+
+/* Clean studio controls: use typographic arrows, not colorful emoji glyphs */
+.spark,.big-star,.service-meta b,.note-mark{font-family:Manrope,sans-serif;font-weight:500}
+.spark{display:inline-grid;place-items:center;width:22px;height:22px;border:1px solid #c7a979;border-radius:50%;font-size:12px}
+.big-star{font-size:25px!important;border:1px solid #a88755;width:40px;height:40px;border-radius:50%;display:grid;place-items:center}
+.service-meta b{font-size:15px!important;color:#b99a6c;border:1px solid #a887554d;width:30px;height:30px;border-radius:50%;display:grid;place-items:center}
+.note-mark{font-size:13px!important;display:inline-grid;place-items:center;border:1px solid #a98450;border-radius:50%;width:29px;height:29px}
+.benefits-inner i{font-family:Manrope,sans-serif;font-size:12px;color:#a88755;font-style:normal}
+.arrow{font-family:Manrope,sans-serif;font-size:17px;line-height:1;font-weight:400}
+.work-info{min-height:72px}
+.mini-wa{display:none!important}
+.portfolio-note{display:none!important}
+.portfolio-toolbar>.text-link{display:none!important}
+@media(max-width:640px){.spark{width:20px;height:20px}.hero-proof{align-items:center}.work-info{min-height:66px}}
