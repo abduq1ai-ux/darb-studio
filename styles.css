@@ -32,3 +32,93 @@
 .portfolio-note{display:none!important}
 .portfolio-toolbar>.text-link{display:none!important}
 @media(max-width:640px){.spark{width:20px;height:20px}.hero-proof{align-items:center}.work-info{min-height:66px}}
+
+
+/* Premium service presentation: editorial, restrained, image-led */
+.services.premium-services{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.premium-services .service-card{padding:0;min-height:0;display:flex;flex-direction:column;background:#f8f5ee;border:1px solid #d9d1c4;overflow:hidden;transition:transform .28s,border-color .28s,box-shadow .28s}
+.premium-services .service-card:hover{transform:translateY(-5px);border-color:#b59a70;box-shadow:0 18px 45px #1717130d}
+.service-art{display:block;position:relative;height:270px;overflow:hidden;background:#ded5c5;color:#171713;isolation:isolate}
+.service-art:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#fff4 0%,transparent 28%,#17171306 70%,#1717130d 100%);z-index:0;pointer-events:none}
+.art-top,.art-bottom{position:absolute;left:22px;right:22px;display:flex;justify-content:space-between;align-items:center;font:8px Manrope,sans-serif;letter-spacing:.16em;z-index:3;color:#756d5f}
+.art-top{top:18px}.art-bottom{bottom:15px;border-top:1px solid #17171320;padding-top:10px;color:#746b5d}
+.service-content{padding:23px 25px 20px;display:flex;flex-direction:column;flex:1}
+.service-meta{display:flex;align-items:center;justify-content:space-between;font:9px Manrope,sans-serif;letter-spacing:.13em;color:#8c8375}
+.service-meta b{font-size:13px!important;color:#8f7144!important;border:1px solid #b9a17a!important;width:27px!important;height:27px!important;border-radius:50%;display:grid;place-items:center}
+.service-content h3{font-size:25px;line-height:1.45;font-weight:600;letter-spacing:-.025em;margin:16px 0 7px}
+.service-content>p{font-size:12px;line-height:2;color:#777166;margin:0;max-width:440px}
+.service-tags{display:flex;flex-wrap:wrap;gap:6px;margin:17px 0 20px}
+.service-tags span{font-size:9px;color:#73695a;border:1px solid #d9d0c1;padding:4px 9px;background:#f1ece3}
+.premium-services .service-action{border-top:1px solid #d8d0c2;padding-top:14px;margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:600;color:#292720}
+.premium-services .service-action .line-arrow{font:15px Manrope,sans-serif;color:#9b7b4d}
+.service-actions{margin-top:auto}
+.service-secondary{display:inline-flex;align-items:center;gap:7px;margin-top:12px;font-size:10px;color:#83745e}
+.service-secondary span{font:13px Manrope,sans-serif}
+.premium-services .service-card.dark{background:#171713;color:var(--paper)}
+.service-identity .service-art{background:#dfd4bf}
+.identity-art{position:absolute;inset:0;overflow:hidden;background:linear-gradient(124deg,#d7c4a2 0 50%,#c2a578 50% 100%)}
+.identity-art:before{content:"";position:absolute;width:210px;height:210px;border:1px solid #1717132a;border-radius:50%;left:calc(50% - 105px);top:30px;box-shadow:0 0 0 17px #17171308,0 0 0 43px #17171306}
+.identity-orbit{position:absolute;width:250px;height:122px;border:1px solid #f3e7d0;border-radius:50%;left:calc(50% - 125px);top:73px;transform:rotate(-38deg)}
+.orbit-two{transform:rotate(38deg);border-color:#755d3d6b}
+.identity-monogram{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);font:500 125px/1 Manrope,sans-serif;letter-spacing:-.12em;color:#211e18;text-shadow:2px 2px 0 #eee0c5}
+.identity-monogram span{font-size:60px;color:#8b6d43;vertical-align:top}
+.identity-line{position:absolute;width:1px;height:100%;top:0;left:27%;background:#1717131a}
+.line-two{left:73%}
+.identity-chip{position:absolute;font:8px Manrope,sans-serif;letter-spacing:.17em;background:#f4efe4;border:1px solid #17171317;padding:7px 10px}
+.chip-one{left:14%;top:49px}.chip-two{right:13%;bottom:48px}
+.service-logo .service-art{background:#efebe2}
+.logo-art{position:absolute;inset:0;background:radial-gradient(ellipse at center,#e7dfd0 0,#e7dfd0 40%,#d8cdbb 40.2%,#d8cdbb 40.5%,#efebe2 40.7%)}
+.logo-frame{position:absolute;left:50%;top:49%;transform:translate(-50%,-50%);width:140px;height:140px;border:1px solid #8d7552;display:grid;place-items:center;outline:1px solid #8d7552;outline-offset:8px}
+.logo-glyph{font:500 115px/.9 Manrope,sans-serif;color:#24221c;letter-spacing:-.12em;transform:translateX(-3px)}
+.logo-glyph-small{position:absolute;bottom:12px;right:13px;font-size:22px;color:#9b7848}
+.logo-caption{position:absolute;bottom:37px;left:50%;transform:translateX(-50%);font:8px Manrope,sans-serif;letter-spacing:.24em;white-space:nowrap;color:#5e5547}
+.logo-axis{position:absolute;top:0;bottom:0;left:50%;width:1px;background:#17171312}
+.axis-h{top:50%;bottom:auto;left:0;right:0;width:auto;height:1px}
+.service-campaign .service-art{background:#d2c4ae}
+.campaign-art{position:absolute;inset:0;background:linear-gradient(115deg,#c5b397 0 48%,#d9ccba 48%)}
+.campaign-sheet{position:absolute;width:170px;height:185px;box-shadow:0 12px 28px #45372422;padding:12px}
+.sheet-back{top:50px;left:24%;background:#1b1b17;color:#d5c29e;transform:rotate(-8deg)}
+.sheet-back span{font:7px Manrope,sans-serif;letter-spacing:.15em}
+.sheet-back i{display:block;position:absolute;left:25px;right:25px;top:40px;height:100px;background:linear-gradient(145deg,#bda274,#5b4b34);clip-path:polygon(0 0,100% 15%,69% 100%,20% 73%)}
+.sheet-front{top:40px;left:calc(24% + 80px);background:#f1eade;transform:rotate(5deg);color:#171713}
+.campaign-kicker{font:7px Manrope,sans-serif;letter-spacing:.1em;color:#816742}
+.sheet-front strong{display:block;font:500 27px/1 Manrope,sans-serif;letter-spacing:-.07em;margin-top:15px}
+.sheet-front i{position:absolute;right:13px;bottom:33px;width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,#c8ad7d,#6c5433);border:4px solid #e2d4bd}
+.sheet-front small{position:absolute;left:12px;bottom:12px;font:6px Manrope,sans-serif;letter-spacing:.12em}
+.campaign-stamp{position:absolute;right:16%;bottom:46px;font:11px Manrope,sans-serif;letter-spacing:.12em;background:#c8b08a;padding:9px 11px;border:1px solid #1717132a;transform:rotate(-5deg)}
+.service-menu .service-art{background:#181814;color:#efeadf}
+.menu-art{position:absolute;inset:0;background:radial-gradient(circle at 85% 18%,#c7a97928,transparent 30%)}
+.menu-device{position:absolute;width:220px;height:212px;left:50%;top:46%;transform:translate(-50%,-50%) rotate(-4deg);background:#f4efe4;color:#171713;border:6px solid #292821;box-shadow:0 18px 40px #0004;padding:13px 14px}
+.device-top{display:flex;justify-content:space-between;font:7px Manrope,sans-serif;letter-spacing:.12em;color:#80745e}
+.device-heading{font-size:25px;font-weight:600;line-height:1.35;margin-top:10px}
+.device-heading em{font-style:normal;color:#a2814f}
+.device-rule{height:1px;background:#c9bda9;margin:9px 0}
+.device-row{display:grid;grid-template-columns:20px auto 1fr 17px;align-items:center;gap:5px;padding:6px 0;border-bottom:1px solid #ded4c2;font-size:8px}
+.device-row span{font:7px Manrope,sans-serif;color:#9a896d}.device-row i{border-bottom:1px dotted #b3a58e;height:1px}.device-row strong{font:8px Manrope,sans-serif}
+.device-footer{font:6px Manrope,sans-serif;letter-spacing:.12em;color:#8e7b59;margin-top:8px}
+.device-side-label{position:absolute;bottom:47px;right:12%;writing-mode:vertical-rl;font:7px Manrope,sans-serif;letter-spacing:.17em;color:#c7a979}
+.service-social .service-art{background:#d8ccba}
+.social-art{position:absolute;inset:0;background:linear-gradient(135deg,#d7c7ae,#b8a07d)}
+.social-poster{position:absolute;width:150px;height:180px;padding:12px;background:#f0e7d8;box-shadow:0 14px 26px #46362122}
+.social-poster>span{font:7px Manrope,sans-serif;letter-spacing:.12em}
+.post-a{left:calc(50% - 115px);top:45px;transform:rotate(-7deg);background:#201f1a;color:#f3eadb}
+.post-a strong{display:block;font:500 25px/.98 Manrope,sans-serif;letter-spacing:-.06em;margin-top:20px}
+.post-a strong em{color:#c7a979;font-style:normal}
+.post-a i{position:absolute;right:12px;bottom:22px;width:47px;height:47px;border:1px solid #c7a979;border-radius:50%}
+.post-a small,.post-b small{position:absolute;left:12px;bottom:10px;font:6px Manrope,sans-serif;letter-spacing:.1em;opacity:.7}
+.post-b{left:calc(50% + 0px);top:61px;transform:rotate(7deg);background:#e9dfce}
+.post-b .social-circle{position:absolute;top:35px;right:14px;width:73px;height:73px;border-radius:50%;background:#b49768}
+.post-b strong{position:absolute;bottom:34px;left:13px;font:500 24px/.95 Manrope,sans-serif;letter-spacing:-.06em}
+.social-index{position:absolute;right:13%;bottom:45px;background:#e9dfce;padding:8px 12px;font:8px Manrope,sans-serif;letter-spacing:.12em;transform:rotate(-4deg)}
+.service-custom .service-art{background:#d7c8ad}
+.custom-art-core{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;background:linear-gradient(135deg,#d7c8ad,#eadfce)}
+.custom-art-core:before,.custom-art-core:after{content:"";position:absolute;width:220px;height:220px;border:1px solid #7c6545aa;border-radius:50%}
+.custom-art-core:after{width:300px;height:300px;border-color:#17171316}
+.custom-art-core strong{font:500 98px/.9 Manrope,sans-serif;letter-spacing:-.1em;z-index:1;color:#242119}
+.custom-art-core strong span{font-size:47px;color:#9b7949}
+.custom-art-core small{position:absolute;bottom:48px;font:8px Manrope,sans-serif;letter-spacing:.16em;color:#65563e}
+.custom-cross{position:absolute;width:100%;height:1px;background:#17171321;top:48%}.cross-b{width:1px;height:100%;top:0;left:50%}
+.custom-circle{position:absolute;width:120px;height:120px;border:1px solid #b59a70;border-radius:50%}
+.note{margin-top:25px;line-height:2}
+@media(max-width:900px){.services.premium-services{gap:14px}.service-art{height:230px}.service-content{padding:20px}.service-content h3{font-size:22px}.campaign-sheet{transform:scale(.88) rotate(-8deg);transform-origin:top left}.sheet-front{left:calc(24% + 60px)}.social-poster{transform:scale(.9) rotate(-7deg);transform-origin:top left}.post-b{left:calc(50% + 0px);transform:scale(.9) rotate(7deg)}}
+@media(max-width:640px){.services.premium-services{grid-template-columns:1fr;gap:16px}.service-art{height:255px}.service-content{padding:20px 19px 18px}.service-content h3{font-size:23px;margin-top:14px}.service-content>p{font-size:12px}.service-tags{margin:14px 0 17px}.identity-monogram{font-size:118px}.campaign-sheet{transform:rotate(-8deg)}.sheet-front{left:calc(24% + 75px);transform:rotate(5deg)}.social-poster{transform:rotate(-7deg)}.post-b{transform:rotate(7deg)}}
