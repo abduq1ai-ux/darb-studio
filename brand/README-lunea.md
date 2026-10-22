@@ -1,13 +1,13 @@
-# Lunéa — Logo assets
+# Lunéa — Logo assets (refined direction)
 
-Luxury minimalist identity for **Lunéa**.
+Minimal classic-contemporary direction:
+- Clear serif capital **L** as the symbol, designed to read immediately as the initial of Lunéa.
+- No moon, star, or decorative flourishes; clarity and longevity take priority.
+- Warm ivory background: `#F4EFE5`
+- Near-black artwork: `#11100F`
 
-- Background: warm ivory `#F4EFE5`
-- Mark / wordmark: near-black `#11100F`
-- Concept: a crescent-shaped orbit suggesting the moon, paired with a four-point star and subtle rising motion.
-- `lunea-logo.svg`: horizontal lockup
-- `lunea-mark.svg`: standalone mark
+Files:
+- `lunea-logo.svg` — horizontal wordmark
+- `lunea-mark.svg` — standalone L symbol
 
-Both files are editable SVG vector artwork and can be scaled without raster loss. The wordmark uses a serif font stack; for production, convert the text to outlines in Illustrator/Inkscape before handing the logo to a printer, or substitute your licensed premium typeface of choice. Check trademark and domain availability before launch.
-
-Note: a premium logo alone cannot guarantee sales. Brand performance depends on product, positioning, pricing, customer experience, distribution, and consistent execution.
+SVG is vector and scalable. Before final production, open in Illustrator/Inkscape and convert the wordmark text to outlines so typography does not depend on installed fonts. The current wordmark text uses a serif fallback stack; replace with a licensed font if needed.
