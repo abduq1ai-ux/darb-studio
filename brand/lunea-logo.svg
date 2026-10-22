@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
-  <title id="title">Lunéa Logo</title>
-  <desc id="desc">Luxury minimalist Lunéa wordmark and a crescent-inspired L monogram on warm ivory.</desc>
-  <rect width="1600" height="600" fill="#F4EFE5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title desc">
+  <title id="title">Lunéa — Minimal Classic Wordmark</title>
+  <desc id="desc">A clear classic L monogram paired with the Lunéa wordmark in black on warm ivory.</desc>
+  <rect width="1500" height="520" fill="#F4EFE5"/>
   <g fill="#11100F">
-    <!-- Lunar monogram: a crescent orbit wrapping a quiet, rising star -->
-    <path d="M284 152
-      C190 152 128 226 128 300
-      C128 391 199 454 283 454
-      C339 454 386 423 412 377
-      C374 404 333 416 295 405
-      C224 386 185 328 195 263
-      C204 209 240 174 284 152 Z"/>
-    <path d="M319 183
-      C362 215 388 258 388 305
-      C388 345 371 377 344 401
-      C387 380 418 338 418 290
-      C418 243 379 199 319 183 Z"/>
-    <path d="M292 239 L303 270 L334 281 L303 292 L292 323 L281 292 L250 281 L281 270 Z"/>
-    <circle cx="357" cy="212" r="7"/>
+    <!-- A simple, unmistakable L: refined serif stem and baseline, with a restrained modern cut. -->
+    <path d="M192 126 H330 V148 H287 V352 H384 V394 H192 V370 H244 V148 H192 Z"/>
+    <!-- Small cut-out creates a contemporary signature without obscuring the L -->
+    <path d="M287 352 L326 352 L384 394 H340 Z" fill="#F4EFE5"/>
+    <text x="445" y="350" font-family="Bodoni MT, Didot, 'Times New Roman', serif" font-size="172" font-weight="400" letter-spacing="1">Lunéa</text>
   </g>
-  <text x="485" y="355" fill="#11100F" font-family="Cormorant Garamond, Didot, 'Bodoni MT', Georgia, serif" font-size="180" font-weight="500" letter-spacing="2">Lunéa</text>
-  <path d="M490 400 H1110" stroke="#11100F" stroke-width="1.5" opacity=".34"/>
-  <text x="800" y="448" fill="#11100F" font-family="Manrope, Arial, sans-serif" text-anchor="middle" font-size="19" letter-spacing="9">L U N E A   /   SIGNATURE</text>
 </svg>
