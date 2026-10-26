@@ -1,69 +1,56 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f5edda">
-<meta name="description" content="منيو أراو للقهوة المختصة. تصفح المشروبات الساخنة والباردة.">
-<title>Araoo — المنيو الإلكتروني</title>
+<meta name="description" content="القائمة الإلكترونية لمقهى أراو للقهوة المختصة.">
+<title>Araoo | قائمة المشروبات</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="menu-demo.css">
 </head>
 <body>
 <header class="top">
-<a class="back" href="index.html">← <span>درب ستوديو</span></a>
-<a class="brand" href="#home" aria-label="Araoo"><span class="brandmark">A</span><span class="brandname">Araoo<small>COFFEE · ROASTING</small></span></a>
-<a class="contact" href="#menu">استكشف المنيو <span>↓</span></a>
+<div class="brand" aria-label="Araoo"><span class="brand-symbol">A</span><span class="brand-name">Araoo<small>COFFEE HOUSE</small></span></div>
+<span class="top-note">PRECISE ROASTING, PREMIUM TASTE</span>
 </header>
-<main class="shell" id="home">
-<section class="hero" aria-labelledby="title">
-<div class="hero-text">
-<p class="eyebrow"><span class="eyebrow-line"></span> PRECISE ROASTING, PREMIUM TASTE</p>
-<h1 id="title">كل حبة تحكي قصة،<br><em>وكل كوب يصنع لحظة.</em></h1>
-<p class="intro">قهوة مختصة تُحضّر بعناية، لتستمتع بكل رشفة على مهل.</p>
-<a class="hero-cta" href="#menu">اكتشف القائمة <span>↙</span></a>
-</div>
-<div class="hero-photo" role="img" aria-label="مشهد دافئ لمقهى قهوة مختصة">
-<div class="photo-overlay"></div><div class="photo-label">AR AOO / COFFEE HOUSE</div><div class="photo-stamp">A<span>.</span></div><div class="photo-caption">A LITTLE MOMENT<br>WORTH SAVORING</div>
-</div>
-<div class="hero-foot"><span>ARAO0 / MENU</span><span>COFFEE · MADE WITH CARE</span></div>
+<main class="menu-shell">
+<section class="masthead">
+<div class="masthead-kicker"><span></span> قائمة المشروبات <span></span></div>
+<h1>لحظتك، <em>على ذوقك.</em></h1>
+<p>قهوة تُحضّر بعناية، وتفاصيل تستحق التمهّل.</p>
+<div class="masthead-bottom"><span>ARAO0 / MENU</span><span>HOT & COLD DRINKS</span></div>
 </section>
-<div class="disclaimer"><span class="info-icon" aria-hidden="true">i</span><span>الأصناف والأسعار أدناه من صور القائمة التي أرسلتها. لا تُعرض أي أسعار تقديرية.</span></div>
-<section id="menu" class="selection">
-<div class="section-heading"><div><p class="kicker">THE MENU / 01</p><h2>قائمتنا <em>المميزة.</em></h2></div><span class="count" id="count">14 ITEMS</span></div>
-<div class="controls">
-<div class="categories" role="group" aria-label="أقسام المشروبات">
-<button class="active" data-category="all" aria-pressed="true">الكل</button>
-<button data-category="hot" aria-pressed="false">الساخنة</button>
-<button data-category="cold" aria-pressed="false">الباردة</button>
-</div>
-<label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="ابحث عن مشروب" aria-label="ابحث عن مشروب"></label>
-</div>
-<div class="group-head" data-group="hot"><span>01 / HOT DRINKS</span><h3>المشروبات الساخنة <em>HOT</em></h3><i></i></div>
-<div class="items" id="items-hot">
-<article class="item" data-category="hot" data-search="سبانش لاتيه حار hot spanish latte spanish latte"><div class="drink-art spanish"><span class="art-code">AR / 01</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>سبانش لاتيه حار</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Hot Spanish Latte</p></div></article>
-<article class="item" data-category="hot" data-search="لاتيه حار hot latte"><div class="drink-art latte"><span class="art-code">AR / 02</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>لاتيه حار</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Hot Latte</p></div></article>
-<article class="item" data-category="hot" data-search="اسبريسو اسبريسو espresso"><div class="drink-art espresso"><span class="art-code">AR / 03</span><span class="cup"></span><span class="art-bottom">PURE ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>اسبريسو</h4><strong>12 <small>ر.س</small></strong></div><p class="english" lang="en">Espresso</p></div></article>
-<article class="item" data-category="hot" data-search="كابتشينو كابتشينو cappuccino"><div class="drink-art cappuccino"><span class="art-code">AR / 04</span><span class="cup"></span><span class="art-bottom">ESPRESSO · FOAM</span></div><div class="copy"><div class="item-head"><h4>كابتشينو</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Cappuccino</p></div></article>
-<article class="item" data-category="hot" data-search="فلات وايت flat white"><div class="drink-art flat"><span class="art-code">AR / 05</span><span class="cup"></span><span class="art-bottom">MICROFOAM</span></div><div class="copy"><div class="item-head"><h4>فلات وايت</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Flat White</p></div></article>
-<article class="item" data-category="hot" data-search="ميكاتو ميكاتو mecato macchiato"><div class="drink-art macchiato"><span class="art-code">AR / 06</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>ميكاتو</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Mecato</p></div></article>
-<article class="item" data-category="hot" data-search="امريكانو حار americano hot"><div class="drink-art americano"><span class="art-code">AR / 07</span><span class="cup"></span><span class="art-bottom">ESPRESSO · WATER</span></div><div class="copy"><div class="item-head"><h4>أمريكانو حار</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Americano Hot</p></div></article>
-<article class="item" data-category="hot" data-search="كورتادو cortadon cortado"><div class="drink-art cortado"><span class="art-code">AR / 08</span><span class="cup"></span><span class="art-bottom">SHORT · BALANCED</span></div><div class="copy"><div class="item-head"><h4>كورتادو</h4><strong>16 <small>ر.س</small></strong></div><p class="english" lang="en">Cortadon</p></div></article>
-</div>
-<div class="group-head" data-group="cold"><span>02 / COLD DRINKS</span><h3>المشروبات الباردة <em>COLD</em></h3><i></i></div>
-<div class="items" id="items-cold">
-<article class="item" data-category="cold" data-search="سبانش لاتيه بارد spanish latte ice"><div class="drink-art cold-spanish"><span class="art-code">AR / 09</span><span class="cup"></span><span class="art-bottom">ICE · ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>سبانش لاتيه بارد</h4><strong>19 <small>ر.س</small></strong></div><p class="english" lang="en">Spanish Latte / Ice</p></div></article>
-<article class="item" data-category="cold" data-search="لاتيه بارد ice latte iced latte"><div class="drink-art cold-latte"><span class="art-code">AR / 10</span><span class="cup"></span><span class="art-bottom">ICE · MILK</span></div><div class="copy"><div class="item-head"><h4>لاتيه بارد</h4><strong>18 <small>ر.س</small></strong></div><p class="english" lang="en">Ice Latte</p></div></article>
-<article class="item" data-category="cold" data-search="الفريدو اسبريسو alf edo alfredo espresso"><div class="drink-art alfredo"><span class="art-code">AR / 11</span><span class="cup"></span><span class="art-bottom">ARAO0 SIGNATURE</span></div><div class="copy"><div class="item-head"><h4>الفريدو اسبريسو</h4><strong>13 <small>ر.س</small></strong></div><p class="english" lang="en">Alfredo Espresso</p></div></article>
-<article class="item" data-category="cold" data-search="امريكانو بارد americano ice"><div class="drink-art cold-americano"><span class="art-code">AR / 12</span><span class="cup"></span><span class="art-bottom">ICE · ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>أمريكانو بارد</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Americano Ice</p></div></article>
-<article class="item" data-category="cold" data-search="ماتشا كلاود matcha cloud"><div class="drink-art matcha"><span class="art-code">AR / 13</span><span class="cup"></span><span class="art-bottom">MATCHA · CREAM</span></div><div class="copy"><div class="item-head"><h4>ماتشا كلاود</h4><strong>20 <small>ر.س</small></strong></div><p class="english" lang="en">Matcha Cloud</p></div></article>
-<article class="item" data-category="cold" data-search="ايس تي اراو ice tea araoo"><div class="drink-art iced-tea"><span class="art-code">AR / 14</span><span class="cup"></span><span class="art-bottom">TEA · ICE</span></div><div class="copy"><div class="item-head"><h4>آيس تي أراو</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Araoo / Ice Tea</p></div></article>
-<article class="item" data-category="cold" data-search="كركديه اراو hibiscus araoo"><div class="drink-art hibiscus"><span class="art-code">AR / 15</span><span class="cup"></span><span class="art-bottom">HIBISCUS · ICE</span></div><div class="copy"><div class="item-head"><h4>كركديه أراو</h4><strong>12 <small>ر.س</small></strong></div><p class="english" lang="en">Araoo / Hibiscus</p></div></article>
-</div>
-<p class="empty" id="empty" hidden>ما لقينا مشروب بهذا الاسم. جرّب كلمة ثانية.</p>
-</section>
-<footer class="footer"><span>© <span id="year"></span> ARAOO COFFEE</span><span>PRECISE ROASTING, PREMIUM TASTE</span><a href="#home">العودة للأعلى ↑</a></footer>
+<nav class="filters" aria-label="أقسام القائمة">
+<button class="active" data-category="all" aria-pressed="true">كل المشروبات</button>
+<button data-category="hot" aria-pressed="false">المشروبات الساخنة</button>
+<button data-category="cold" aria-pressed="false">المشروبات الباردة</button>
+</nav>
+<div class="menu-section" data-group="hot">
+<div class="section-heading"><div><span class="section-number">01</span><div><h2>المشروبات الساخنة</h2><p lang="en">HOT DRINKS</p></div></div><span class="section-rule"></span></div>
+<div class="menu-list">
+<article class="menu-item" data-category="hot" data-search="سبانش لاتيه حار hot spanish latte"><div class="item-name"><h3>سبانش لاتيه حار</h3><p lang="en">Hot Spanish Latte</p></div><span class="leader"></span><strong class="price">15 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="لاتيه حار hot latte"><div class="item-name"><h3>لاتيه حار</h3><p lang="en">Hot Latte</p></div><span class="leader"></span><strong class="price">15 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="اسبريسو espresso"><div class="item-name"><h3>اسبريسو</h3><p lang="en">Espresso</p></div><span class="leader"></span><strong class="price">12 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="كابتشينو cappuccino"><div class="item-name"><h3>كابتشينو</h3><p lang="en">Cappuccino</p></div><span class="leader"></span><strong class="price">14 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="فلات وايت flat white"><div class="item-name"><h3>فلات وايت</h3><p lang="en">Flat White</p></div><span class="leader"></span><strong class="price">14 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="ميكاتو mecato"><div class="item-name"><h3>ميكاتو</h3><p lang="en">Mecato</p></div><span class="leader"></span><strong class="price">15 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="امريكانو حار americano hot"><div class="item-name"><h3>أمريكانو حار</h3><p lang="en">Americano Hot</p></div><span class="leader"></span><strong class="price">14 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="hot" data-search="كورتادو cortadon"><div class="item-name"><h3>كورتادو</h3><p lang="en">Cortadon</p></div><span class="leader"></span><strong class="price">16 <small>ر.س</small></strong></article>
+</div></div>
+<div class="menu-section" data-group="cold">
+<div class="section-heading"><div><span class="section-number">02</span><div><h2>المشروبات الباردة</h2><p lang="en">COLD DRINKS</p></div></div><span class="section-rule"></span></div>
+<div class="menu-list">
+<article class="menu-item" data-category="cold" data-search="سبانش لاتيه بارد spanish latte ice"><div class="item-name"><h3>سبانش لاتيه بارد</h3><p lang="en">Spanish Latte / Ice</p></div><span class="leader"></span><strong class="price">19 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="لاتيه بارد ice latte"><div class="item-name"><h3>لاتيه بارد</h3><p lang="en">Ice Latte</p></div><span class="leader"></span><strong class="price">18 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="الفريدو اسبريسو alfredo espresso"><div class="item-name"><h3>الفريدو اسبريسو</h3><p lang="en">Alfredo Espresso</p></div><span class="leader"></span><strong class="price">13 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="امريكانو بارد americano ice"><div class="item-name"><h3>أمريكانو بارد</h3><p lang="en">Americano Ice</p></div><span class="leader"></span><strong class="price">15 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="ماتشا كلاود matcha cloud"><div class="item-name"><h3>ماتشا كلاود</h3><p lang="en">Matcha Cloud</p></div><span class="leader"></span><strong class="price">20 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="ايس تي اراو araoo ice tea"><div class="item-name"><h3>آيس تي أراو</h3><p lang="en">Araoo / Ice Tea</p></div><span class="leader"></span><strong class="price">14 <small>ر.س</small></strong></article>
+<article class="menu-item" data-category="cold" data-search="كركديه اراو hibiscus araoo"><div class="item-name"><h3>كركديه أراو</h3><p lang="en">Araoo / Hibiscus</p></div><span class="leader"></span><strong class="price">12 <small>ر.س</small></strong></article>
+</div></div>
+<div class="bottom-note"><span class="bottom-mark">A.</span><p>كل كوب له لحظته.</p><span>ARAO0 · COFFEE HOUSE</span></div>
 </main>
+<footer><span>ARAO0 COFFEE HOUSE</span><span>PRECISE ROASTING, PREMIUM TASTE</span><span>© <span id="year"></span></span></footer>
 <script src="menu-demo.js"></script>
 </body></html>
