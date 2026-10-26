@@ -1,28 +1,69 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171713">
-<meta name="description" content="نموذج تفاعلي لمنيو إلكتروني من درب ستوديو."><title>تجربة المنيو | DARB Studio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5edda">
+<meta name="description" content="منيو أراو للقهوة المختصة. تصفح المشروبات الساخنة والباردة.">
+<title>Araoo — المنيو الإلكتروني</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="menu-demo.css">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu-demo.css">
 </head>
 <body>
-<header class="top"><a href="index.html">← <span>العودة إلى درب</span></a><a class="brand" href="index.html"><b>د</b><span>درب<small>DARB STUDIO</small></span></a><a class="contact" href="https://wa.me/966566366401?text=%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%B5%D9%85%D9%85%20%D9%85%D9%86%D9%8A%D9%88%20%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A" target="_blank" rel="noopener noreferrer">صمّم منيو لنشاطك ↗</a></header>
-<main class="shell">
-<section class="hero"><div class="eyebrow"><span>ROAST / ROOM</span><span>COFFEE · BAKERY</span></div><div class="hero-main"><div class="monogram">R<span>.</span></div><div><p class="kicker">A LITTLE PAUSE IN YOUR DAY</p><h1>قهوة مختصة،<br><em>على مهل.</em></h1><p class="intro">نكهات موزونة، تفاصيل بسيطة، ولحظات تستحق التمهّل.</p></div></div><div class="hero-foot"><span>قائمة تجريبية</span><span>اختر تصنيفًا أو ابحث عن صنف ↓</span></div></section>
-<div class="disclaimer"><span class="info-icon" aria-hidden="true">i</span> هذا نموذج تفاعلي لعرض الفكرة فقط. الاسم والأصناف والأسعار افتراضية ويمكن تخصيصها حسب نشاطك.</div>
-<div class="controls"><div class="categories" role="group" aria-label="أقسام المنيو"><button class="active" data-category="all" aria-pressed="true">الكل</button><button data-category="hot" aria-pressed="false">قهوة ساخنة</button><button data-category="cold" aria-pressed="false">قهوة باردة</button><button data-category="bakery" aria-pressed="false">مخبوزات</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="ابحث في القائمة" aria-label="ابحث في القائمة"></label></div>
-<section class="selection"><div class="selection-head"><div><p class="kicker">OUR SELECTION</p><h2>اختياراتنا <em>المميزة.</em></h2></div><span id="count">08 ITEMS</span></div>
-<div class="items" id="items">
-<article class="item" data-category="hot" data-search="لاتيه latte حليب اسبريسو"><div class="art latte"><small>R/R</small><b>LATTE</b><i></i></div><div class="copy"><div class="item-head"><h3>لاتيه</h3><strong>18 <small>ر.س</small></strong></div><p>إسبريسو متوازن مع حليب مبخّر بقوام ناعم.</p><button class="details" data-title="لاتيه" data-description="إسبريسو مزدوج وحليب مبخّر بقوام ناعم." data-price="18" data-notes="نكهة متوازنة · قوام كريمي">التفاصيل <span aria-hidden="true">+</span></button></div></article>
-<article class="item" data-category="hot" data-search="فلات وايت flat white اسبريسو حليب"><div class="art flat"><small>R/R</small><b>FLAT WHITE</b><i></i></div><div class="copy"><div class="item-head"><h3>فلات وايت</h3><strong>16 <small>ر.س</small></strong></div><p>قهوة مركزة مع طبقة حليب رقيقة ومخملية.</p><button class="details" data-title="فلات وايت" data-description="جرعتان من الإسبريسو مع حليب مخملي." data-price="16" data-notes="قوي ومتوازن · حليب ناعم">التفاصيل <span aria-hidden="true">+</span></button></div></article>
-<article class="item" data-category="hot" data-search="v60 قهوة مقطرة حار"><div class="art pour"><small>R/R</small><b>POUR OVER</b><i></i></div><div class="copy"><div class="item-head"><h3>قهوة مقطرة V60</h3><strong>20 <small>ر.س</small></strong></div><p>استخلاص يدوي يبرز خصائص البن وملاحظاته.</p><button class="details" data-title="قهوة مقطرة V60" data-description="قهوة مقطرة تُحضّر يدويًا حسب المحصول المتوفر." data-price="20" data-notes="إيحاءات فاكهية · وضوح النكهة">التفاصيل <span>＋</span></button></div></article>
-<article class="item" data-category="hot" data-search="كابتشينو cappuccino قهوة حليب"><div class="art capp"><small>R/R</small><b>CAPPUCCINO</b><i></i></div><div class="copy"><div class="item-head"><h3>كابتشينو</h3><strong>17 <small>ر.س</small></strong></div><p>إسبريسو مع حليب ورغوة خفيفة ومتوازنة.</p><button class="details" data-title="كابتشينو" data-description="إسبريسو مع حليب مبخر وطبقة رغوة خفيفة." data-price="17" data-notes="قوام متوازن · رغوة ناعمة">التفاصيل <span>＋</span></button></div></article>
-<article class="item" data-category="cold" data-search="آيس أمريكانو iced americano بارد"><div class="art americano"><small>R/R</small><b>ICE AMERICANO</b><i></i></div><div class="copy"><div class="item-head"><h3>آيس أمريكانو</h3><strong>14 <small>ر.س</small></strong></div><p>إسبريسو وماء بارد وثلج، بطعم واضح ومنعش.</p><button class="details" data-title="آيس أمريكانو" data-description="إسبريسو مع ماء بارد وثلج." data-price="14" data-notes="منعش · نكهة قهوة واضحة">التفاصيل <span>＋</span></button></div></article>
-<article class="item" data-category="cold" data-search="آيس لاتيه iced latte بارد حليب"><div class="art iced"><small>R/R</small><b>ICED LATTE</b><i></i></div><div class="copy"><div class="item-head"><h3>آيس لاتيه</h3><strong>19 <small>ر.س</small></strong></div><p>إسبريسو وحليب بارد مع ثلج، بنكهة ناعمة.</p><button class="details" data-title="آيس لاتيه" data-description="إسبريسو وحليب بارد وثلج." data-price="19" data-notes="ناعم · خيار مناسب للأجواء الدافئة">التفاصيل <span>＋</span></button></div></article>
-<article class="item" data-category="bakery" data-search="كرواسون croissant مخبوزات زبدة"><div class="art croissant"><small>R/R</small><b>CROISSANT</b><i></i></div><div class="copy"><div class="item-head"><h3>كرواسون زبدة</h3><strong>12 <small>ر.س</small></strong></div><p>طبقات خفيفة ومقرمشة، مناسبة مع قهوتك.</p><button class="details" data-title="كرواسون زبدة" data-description="كرواسون بطبقات زبدية خفيفة." data-price="12" data-notes="مقرمش من الخارج · طري من الداخل">التفاصيل <span>＋</span></button></div></article>
-<article class="item" data-category="bakery" data-search="كوكيز cookies شوكولاتة مخبوزات"><div class="art cookie"><small>R/R</small><b>CHOC CHIP</b><i></i></div><div class="copy"><div class="item-head"><h3>كوكيز شوكولاتة</h3><strong>10 <small>ر.س</small></strong></div><p>قطعة كوكيز مع حبيبات الشوكولاتة.</p><button class="details" data-title="كوكيز شوكولاتة" data-description="كوكيز بالشوكولاتة، مخبوزة لترافق قهوتك." data-price="10" data-notes="شوكولاتة · حلاوة متوازنة">التفاصيل <span>＋</span></button></div></article>
-</div><p class="empty" id="empty" hidden>ما لقينا صنفًا بهذا الاسم. جرّب كلمة ثانية.</p></section>
-<section class="closing"><div><p class="kicker">YOUR BRAND, YOUR MENU</p><h2>تجربة تناسب <em>مشروعك.</em></h2><p>ألوانك، أصنافك، أسعارك، وطريقة عرض تناسب عملاءك.</p></div><a href="https://wa.me/966566366401?text=%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%B5%D9%85%D9%85%20%D9%85%D9%86%D9%8A%D9%88%20%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D9%84%D9%86%D8%B4%D8%A7%D8%B7%D9%8A" target="_blank" rel="noopener noreferrer">اطلب منيو لمشروعك ↗</a></section>
-</main><footer><span>© <span id="year"></span> DARB STUDIO</span><a href="index.html">خدمات درب ↗</a><span>هذا نموذج توضيحي فقط</span></footer>
-<dialog id="dialog"><button class="close" id="close" aria-label="إغلاق">×</button><p class="kicker">ROAST / ROOM · MENU</p><h2 id="detailTitle"></h2><p id="description"></p><div class="dialog-meta"><span id="notes"></span><strong id="price"></strong></div><small>هذا المحتوى تجريبي ويُعدّل حسب بيانات نشاطك.</small></dialog><script src="menu-demo.js"></script></body></html>
+<header class="top">
+<a class="back" href="index.html">← <span>درب ستوديو</span></a>
+<a class="brand" href="#home" aria-label="Araoo"><span class="brandmark">A</span><span class="brandname">Araoo<small>COFFEE · ROASTING</small></span></a>
+<a class="contact" href="#menu">استكشف المنيو <span>↓</span></a>
+</header>
+<main class="shell" id="home">
+<section class="hero" aria-labelledby="title">
+<div class="hero-text">
+<p class="eyebrow"><span class="eyebrow-line"></span> PRECISE ROASTING, PREMIUM TASTE</p>
+<h1 id="title">كل حبة تحكي قصة،<br><em>وكل كوب يصنع لحظة.</em></h1>
+<p class="intro">قهوة مختصة تُحضّر بعناية، لتستمتع بكل رشفة على مهل.</p>
+<a class="hero-cta" href="#menu">اكتشف القائمة <span>↙</span></a>
+</div>
+<div class="hero-photo" role="img" aria-label="مشهد دافئ لمقهى قهوة مختصة">
+<div class="photo-overlay"></div><div class="photo-label">AR AOO / COFFEE HOUSE</div><div class="photo-stamp">A<span>.</span></div><div class="photo-caption">A LITTLE MOMENT<br>WORTH SAVORING</div>
+</div>
+<div class="hero-foot"><span>ARAO0 / MENU</span><span>COFFEE · MADE WITH CARE</span></div>
+</section>
+<div class="disclaimer"><span class="info-icon" aria-hidden="true">i</span><span>الأصناف والأسعار أدناه من صور القائمة التي أرسلتها. لا تُعرض أي أسعار تقديرية.</span></div>
+<section id="menu" class="selection">
+<div class="section-heading"><div><p class="kicker">THE MENU / 01</p><h2>قائمتنا <em>المميزة.</em></h2></div><span class="count" id="count">14 ITEMS</span></div>
+<div class="controls">
+<div class="categories" role="group" aria-label="أقسام المشروبات">
+<button class="active" data-category="all" aria-pressed="true">الكل</button>
+<button data-category="hot" aria-pressed="false">الساخنة</button>
+<button data-category="cold" aria-pressed="false">الباردة</button>
+</div>
+<label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="ابحث عن مشروب" aria-label="ابحث عن مشروب"></label>
+</div>
+<div class="group-head" data-group="hot"><span>01 / HOT DRINKS</span><h3>المشروبات الساخنة <em>HOT</em></h3><i></i></div>
+<div class="items" id="items-hot">
+<article class="item" data-category="hot" data-search="سبانش لاتيه حار hot spanish latte spanish latte"><div class="drink-art spanish"><span class="art-code">AR / 01</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>سبانش لاتيه حار</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Hot Spanish Latte</p></div></article>
+<article class="item" data-category="hot" data-search="لاتيه حار hot latte"><div class="drink-art latte"><span class="art-code">AR / 02</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>لاتيه حار</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Hot Latte</p></div></article>
+<article class="item" data-category="hot" data-search="اسبريسو اسبريسو espresso"><div class="drink-art espresso"><span class="art-code">AR / 03</span><span class="cup"></span><span class="art-bottom">PURE ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>اسبريسو</h4><strong>12 <small>ر.س</small></strong></div><p class="english" lang="en">Espresso</p></div></article>
+<article class="item" data-category="hot" data-search="كابتشينو كابتشينو cappuccino"><div class="drink-art cappuccino"><span class="art-code">AR / 04</span><span class="cup"></span><span class="art-bottom">ESPRESSO · FOAM</span></div><div class="copy"><div class="item-head"><h4>كابتشينو</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Cappuccino</p></div></article>
+<article class="item" data-category="hot" data-search="فلات وايت flat white"><div class="drink-art flat"><span class="art-code">AR / 05</span><span class="cup"></span><span class="art-bottom">MICROFOAM</span></div><div class="copy"><div class="item-head"><h4>فلات وايت</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Flat White</p></div></article>
+<article class="item" data-category="hot" data-search="ميكاتو ميكاتو mecato macchiato"><div class="drink-art macchiato"><span class="art-code">AR / 06</span><span class="cup"></span><span class="art-bottom">ESPRESSO · MILK</span></div><div class="copy"><div class="item-head"><h4>ميكاتو</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Mecato</p></div></article>
+<article class="item" data-category="hot" data-search="امريكانو حار americano hot"><div class="drink-art americano"><span class="art-code">AR / 07</span><span class="cup"></span><span class="art-bottom">ESPRESSO · WATER</span></div><div class="copy"><div class="item-head"><h4>أمريكانو حار</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Americano Hot</p></div></article>
+<article class="item" data-category="hot" data-search="كورتادو cortadon cortado"><div class="drink-art cortado"><span class="art-code">AR / 08</span><span class="cup"></span><span class="art-bottom">SHORT · BALANCED</span></div><div class="copy"><div class="item-head"><h4>كورتادو</h4><strong>16 <small>ر.س</small></strong></div><p class="english" lang="en">Cortadon</p></div></article>
+</div>
+<div class="group-head" data-group="cold"><span>02 / COLD DRINKS</span><h3>المشروبات الباردة <em>COLD</em></h3><i></i></div>
+<div class="items" id="items-cold">
+<article class="item" data-category="cold" data-search="سبانش لاتيه بارد spanish latte ice"><div class="drink-art cold-spanish"><span class="art-code">AR / 09</span><span class="cup"></span><span class="art-bottom">ICE · ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>سبانش لاتيه بارد</h4><strong>19 <small>ر.س</small></strong></div><p class="english" lang="en">Spanish Latte / Ice</p></div></article>
+<article class="item" data-category="cold" data-search="لاتيه بارد ice latte iced latte"><div class="drink-art cold-latte"><span class="art-code">AR / 10</span><span class="cup"></span><span class="art-bottom">ICE · MILK</span></div><div class="copy"><div class="item-head"><h4>لاتيه بارد</h4><strong>18 <small>ر.س</small></strong></div><p class="english" lang="en">Ice Latte</p></div></article>
+<article class="item" data-category="cold" data-search="الفريدو اسبريسو alf edo alfredo espresso"><div class="drink-art alfredo"><span class="art-code">AR / 11</span><span class="cup"></span><span class="art-bottom">ARAO0 SIGNATURE</span></div><div class="copy"><div class="item-head"><h4>الفريدو اسبريسو</h4><strong>13 <small>ر.س</small></strong></div><p class="english" lang="en">Alfredo Espresso</p></div></article>
+<article class="item" data-category="cold" data-search="امريكانو بارد americano ice"><div class="drink-art cold-americano"><span class="art-code">AR / 12</span><span class="cup"></span><span class="art-bottom">ICE · ESPRESSO</span></div><div class="copy"><div class="item-head"><h4>أمريكانو بارد</h4><strong>15 <small>ر.س</small></strong></div><p class="english" lang="en">Americano Ice</p></div></article>
+<article class="item" data-category="cold" data-search="ماتشا كلاود matcha cloud"><div class="drink-art matcha"><span class="art-code">AR / 13</span><span class="cup"></span><span class="art-bottom">MATCHA · CREAM</span></div><div class="copy"><div class="item-head"><h4>ماتشا كلاود</h4><strong>20 <small>ر.س</small></strong></div><p class="english" lang="en">Matcha Cloud</p></div></article>
+<article class="item" data-category="cold" data-search="ايس تي اراو ice tea araoo"><div class="drink-art iced-tea"><span class="art-code">AR / 14</span><span class="cup"></span><span class="art-bottom">TEA · ICE</span></div><div class="copy"><div class="item-head"><h4>آيس تي أراو</h4><strong>14 <small>ر.س</small></strong></div><p class="english" lang="en">Araoo / Ice Tea</p></div></article>
+<article class="item" data-category="cold" data-search="كركديه اراو hibiscus araoo"><div class="drink-art hibiscus"><span class="art-code">AR / 15</span><span class="cup"></span><span class="art-bottom">HIBISCUS · ICE</span></div><div class="copy"><div class="item-head"><h4>كركديه أراو</h4><strong>12 <small>ر.س</small></strong></div><p class="english" lang="en">Araoo / Hibiscus</p></div></article>
+</div>
+<p class="empty" id="empty" hidden>ما لقينا مشروب بهذا الاسم. جرّب كلمة ثانية.</p>
+</section>
+<footer class="footer"><span>© <span id="year"></span> ARAOO COFFEE</span><span>PRECISE ROASTING, PREMIUM TASTE</span><a href="#home">العودة للأعلى ↑</a></footer>
+</main>
+<script src="menu-demo.js"></script>
+</body></html>
